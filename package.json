@@ -2,9 +2,9 @@
   "name": "node-vk-bot-api",
   "version": "1.0.1",
   "description": "API for VK bots based on long poll with multi-dispatch send messages (75 per second).",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node examples/simple.js"
   },
   "repository": {
     "type": "git",
